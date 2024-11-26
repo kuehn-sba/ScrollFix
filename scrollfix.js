@@ -7,7 +7,6 @@
  * http://www.opensource.org/licenses/mit-license.php
  */
 
-(function () {
   var ScrollFix = function(elem) {
     // Variables to track inputs
     var startY, startTopScroll;
@@ -45,5 +44,3 @@
   else {
     module.exports = ScrollFix;
   }
-
-})();
